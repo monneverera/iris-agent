@@ -87,7 +87,7 @@ export const en: Translations = {
       ipcBridgeUnavailable: 'Desktop IPC bridge is unavailable.'
     },
     failure: {
-      title: "Hermes couldn't start",
+      title: "Iris couldn't start",
       description:
         "The background gateway didn't come up. Try one of the recovery steps below. Nothing here deletes your chats or settings.",
       remoteTitle: 'Remote gateway sign-in required',
@@ -138,7 +138,7 @@ export const en: Translations = {
     backendOutOfDateMessage:
       'Your Hermes backend is older than this desktop build and may not work correctly. Update to align them.',
     installMethodUnsupportedTitle: 'Unsupported install method',
-    updateHermes: 'Update Hermes',
+    updateHermes: 'Update Iris',
     updateReadyTitle: 'Update ready',
     updateReadyMessage: count => `${count} new change${count === 1 ? '' : 's'} available.`,
     updateReadyMessageUnknown: 'A new update is available.',
@@ -188,8 +188,8 @@ export const en: Translations = {
       approveAction: 'Approve',
       rejectAction: 'Reject',
       inputTitle: 'Input needed',
-      inputBody: 'Hermes is waiting for your response.',
-      turnDoneTitle: 'Hermes finished',
+      inputBody: 'Iris is waiting for your response.',
+      turnDoneTitle: 'Iris finished',
       turnDoneBody: '',
       turnErrorTitle: 'Turn failed',
       backgroundDoneTitle: 'Background task finished',
@@ -1508,7 +1508,7 @@ export const en: Translations = {
     restartGateway: 'Restart gateway',
     openBrowser: 'Open browser',
     gatewayRestartFailed: 'Gateway restart failed.',
-    updateHermes: 'Update Hermes',
+    updateHermes: 'Update Iris',
     reloadWindow: 'Reload window',
     actionRunning: 'running',
     actionDone: 'done',
